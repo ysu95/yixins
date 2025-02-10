@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+}
+.con1{
+    max-width: 1330px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.img1{
+    width: 35%;
+    text-align: center;
+}
+.con_b{
+    width: 100%;
+    padding: 3vw 0;
+    background: #FAFAFA;
+}
+.title{
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+    color: #191B1E;
+}
+.text_con1{
+    width: 65%;
+    padding: 0 2vw;
+    /*color: #495369;*/
+}
+.text{
+    line-height: 150%;
+    font-family: "Inter", serif;
+    color: #68666C !important;
+    margin: 10px 0;
+}
+.list_1 li{
+    list-style: none;
+    margin: 10px 0;
+    font-family: "Inter", serif;
+    line-height: 150%;
+    color: #68666C;
+}
+.list_bg_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+a{
+    color: #FD7030;
+    transition: all 0.3s;
+}
+a:hover{
+    color: orangered;
+}
+.con_w{
+    width: 100%;
+    padding: 3vw 0;
+    background: #fff;
+}
+.con2{
+    max-width: 1330px;
+    width: 95%;
+    margin: auto;
+}
+.text span{
+    color: black;
+}
+b{
+    color: #191B1E;
+}
+.list_2{
+    padding-left: 20px;
+}
+.list_2 li{
+    margin: 10px 0;
+    font-family: "Inter", serif;
+    line-height: 150%;
+    color: #495369;
+}
+.t_line{
+    text-decoration: underline;
+    color: #FD7030 !important;
+}
+.sm_title{
+    font-family: "Inter", serif;
+    font-size: 20px;
+    color: #191B1E;
+    margin-bottom: 10px;
+}
+.con2_con1{
+    width: 100%;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3,1fr);*/
+    /*grid-template-rows: auto;*/
+    /*grid-gap: 20px;*/
+}
+.con2_con1{
+    margin-top: 20px;
+}
+.flex_con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    border: 1px solid #2D2D39;
+    border-radius: 5px;
+    padding: 20px;
+}
+.con2_con1_con1{
+    width: 35%;
+}
+.con2_con1_con2{
+    width: 65%;
+    background: #FAFAFA;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.f_c{
+    flex-direction: row-reverse !important;
+}
+.f_r{
+    align-items: flex-end !important;
+}
+/*.con2_con1_con1,.con2_con1_con2{*/
+/*    !*border: 1px solid #68666C;*!*/
+/*    padding: 20px;*/
+/*    background: #FAFAFA;*/
+/*}*/
+footer{
+    width: 100%;
+    padding: 2vw 0;
+    background: #191B1E;
+}
+.footer_con{
+    max-width: 1330px;
+    width: 95%;
+    margin: auto;
+}
+.footer_con .title{
+    color: white;
+}
+.a_list{
+    color: #898989;
+    font-family: "Inter", serif;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+}
+.a_list a{
+    color: #898989;
+    font-family: "Inter", serif;
+    line-height: 250%;
+    transition: all 0.3s;
+}
+.a_list a:hover{
+    color: white;
+}
+.footer_text{
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: #898989;
+    font-family: Arial;
+    border-top: 1px solid #2D2D39;
+    font-size: 16px;
+    margin-top: 2vw;
+}
+.t_center{
+    text-align: center;
+}
+@media screen and (max-width: 960px){
+    .con1{
+        display: block;
+    }
+    .con1>div{
+        width: 100%;
+    }
+    .con2_con1{
+        /*display: grid;*/
+        /*grid-template-columns: repeat(1,1fr);*/
+        /*grid-gap: 10px;*/
+    }
+    .flex_con>div{
+        width: 100%;
+    }
+    .footer_text{
+        padding: 10px 0 0 0;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .sm_title{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .list_1 li{
+        font-size: 14px;
+        margin: 5px 0;
+    }
+    .list_2 li{
+        font-size: 14px;
+    }
+    .a_list a{
+        font-size: 14px;
+        line-height: 200%;
+    }
+    .text_con1{
+        padding: 0;
+        margin-top: 10px;
+    }
+    footer{
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
